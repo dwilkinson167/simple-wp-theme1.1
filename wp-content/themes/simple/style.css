@@ -1,0 +1,77 @@
+/*
+    Theme Name: Simple
+    Author: Dylan Wilkinson
+    Author URI: http://www.dylanwilkinson.me
+    Description: Very simple Wordpress Theme
+    Version: 1.0
+ */
+
+body {
+    font-family: Arial, serif;
+    font-size: 15px;
+    color: darkslategray;
+    background: lightgrey;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7em;
+}
+
+header {
+    background: darkslategray;
+    color: white;
+    padding: 20px 10px;
+}
+
+a {
+    color: darkslategray;
+}
+
+header h1 {
+    color: #fff;
+    margin: 0;
+    padding: 0 0 10px;
+}
+
+.container {
+    width: 1020px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.main {
+    margin: 15px 0;
+}
+
+footer {
+    background: darkslategray;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+
+}
+
+article.post {
+    border-bottom: 1px #ccc solid;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+article.post a.button {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.meta {
+    background: #333;
+    color: #fff;
+    padding: 5px;
+}
+
+.post-thumbnail img{
+    width: 100%;
+    height: auto;
+}
