@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
-<body>
-<div class="main">
-	<div class="container">
+
+<div class="container">
+	<div class="main">
 		<?php if ( have_posts() ): ?>
 			<?php while ( have_posts() ): the_post(); ?>
 				<article class="post">
@@ -28,10 +28,18 @@
 			<?php echo wpautop( 'Sorry, No posts were found' ); ?>
 		<?php endif; ?>
 	</div>
+
+	<div class="sidebar">
+		<?php if ( is_active_sidebar( 'sidebar' ) ) : ?>
+			<?php dynamic_sidebar( 'sidebar' ); ?>
+
+		<?php endif; ?>
+	</div>
+
+	<div class="clr">
+	</div>
 </div>
+
 
 <?php get_footer(); ?>
 
-</body>
-
-</html>
